@@ -1,0 +1,53 @@
+{
+
+"ProductAssertionsLocators" : {
+    "Desktop_Image" : ":nth-child(1) > .product-item > .picture > a > img",
+    "Build_Own_Computer_Pic" : "img[title='Picture of Build your own computer'][alt='Picture of Build your own computer'][src='https://demo.nopcommerce.com/images/thumbs/0000021_build-your-own-computer_100.jpeg']",
+    "Build_Own_Computer_Text" : "div[class='product-name'] h1",
+    "Description_Text" : ".short-description",
+    "Rating_Stars" : "div[class='rating'] div",
+    "Overview_Hover" : "div[class='overview'] a:nth-child(1)",
+    "Hovering_Purpose" : "mouseover",
+    "sku_Text" : ".sku",
+    "Free_Shipping_Text" : "#free-shipping-1"
+
+},
+
+"CartLocators" : {
+
+    "Processor_Label" : "dt[id='product_attribute_label_1'] label[class='text-prompt']",
+    "Processor_Dropdown" : "#product_attribute_1",
+    "RAM_Label" : "dt[id='product_attribute_label_2'] label[class='text-prompt']",
+    "RAM_Dropdown" : "#product_attribute_2",
+    "HDD_Label" : "dt[id='product_attribute_label_3'] label[class='text-prompt']",
+    "HDD_Radio_Button" : "#product_attribute_3_7",
+    "OS_Label" : "dt[id='product_attribute_label_4'] label[class='text-prompt']",
+    "OS_Radio_Button" : "#product_attribute_4_9",
+    "Software_Label" : "dt[id='product_attribute_label_5'] label[class='text-prompt']",
+    "Software_Option1_Checkbox" : "#product_attribute_5_10",
+    "Software_Option2_Checkbox" : "#product_attribute_5_11",
+    "Price_Value" : "#price-value-1",
+    "Add_to_Cart_Button" : "#add-to-cart-button-1"
+
+},
+
+"ViewShoppingCartAlert" : {
+
+    "Shoppingcart_Message" : ".content",
+    "View_Shoppingcart_Link" : "p[class='content'] a",
+    "Terms_of_Services": "#termsofservice",
+    "CheckOut_Button" : "#checkout"
+
+},
+
+"BillingAddress" : {
+
+    "Country_Dropdown" : "#BillingNewAddress_CountryId",
+    "City_Dropdown" : "#BillingNewAddress_City",
+    "Address_Field" : "#BillingNewAddress_Address1",
+    "ZipCode_Field" : "#BillingNewAddress_ZipPostalCode",
+    "PhoneNumber_Field" : "#BillingNewAddress_PhoneNumber",
+    "Billing_Button" : "#billing-buttons-container > .new-address-next-step-button"
+
+}
+}
